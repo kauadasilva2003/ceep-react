@@ -1,8 +1,14 @@
+import React, { Component } from "react";
+import { FormularioCadastro } from "./components/FormularioCadastro";
+import { ListaDeNotas } from "./components/ListaDeNotas";
 
-function App() {
-  return (
-   <h1>Teste com react</h1>
-  );
+export default class App extends Component {
+  render(){
+    return (
+    <>  
+      <FormularioCadastro/>
+      <ListaDeNotas/>
+    </>  
+    );
+  }
 }
-
-export default App;
